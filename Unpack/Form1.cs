@@ -1,6 +1,4 @@
 
-using MinProfile;
-
 namespace Unpack
 {
     public partial class Form1 : Form
@@ -8,7 +6,6 @@ namespace Unpack
         public Form1()
         {
             InitializeComponent();
-            MinProfile.Form1
         }
     }
 }
