@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BM">
+      <HintPath>..\..\..\..\Project\BM\BM\bin\Debug\net6.0-windows\BM.dll</HintPath>
+    </Reference>
+    <Reference Include="BMShare">
+      <HintPath>..\..\..\..\Project\BM\BMShare\bin\Debug\net6.0\BMShare.dll</HintPath>
+    </Reference>
+    <Reference Include="KeyApp">
+      <HintPath>..\..\..\..\Project\KeyApp\KeyApp\bin\Debug\net6.0-windows\KeyApp.dll</HintPath>
+    </Reference>
+    <Reference Include="MainMaster">
+      <HintPath>..\..\..\..\Project\MainMaster\MainMaster\bin\Debug\net6.0-windows\MainMaster.dll</HintPath>
+    </Reference>
+    <Reference Include="MinProfile">
+      <HintPath>..\..\..\..\Project\MinProfile\MinProfile\bin\Debug\net6.0-windows\MinProfile.dll</HintPath>
+    </Reference>
+    <Reference Include="NatureChrome">
+      <HintPath>..\..\..\..\Project\NatureChrome\NatureChrome\bin\Debug\net6.0\NatureChrome.dll</HintPath>
+    </Reference>
+    <Reference Include="XMCore">
+      <HintPath>..\..\..\..\Project\MinProfile\MinProfile\bin\Debug\net6.0-windows\XMCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
